@@ -1,0 +1,15 @@
+services:
+  comfyui:
+    image: comfyui:latest
+    container_name: comfyui
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    volumes:
+      - D:\test:/app/ComfyUI/models
+    ports:
+      - "8188:8188"
+    runtime: nvidia
+    #network_mode: host
