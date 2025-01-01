@@ -1,5 +1,8 @@
 services:
   comfyui:
+    build:
+      context: .
+      dockerfile: dockerfile
     image: comfyui:latest
     container_name: comfyui
     deploy:
