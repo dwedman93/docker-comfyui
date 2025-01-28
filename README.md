@@ -7,7 +7,7 @@ Docker image for Comfyui
 ---
 config:
   look: handDrawn
-  theme: forest
+  theme: neo
 ---
 architecture-beta
     group api(cloud)[API]
