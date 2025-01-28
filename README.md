@@ -4,6 +4,11 @@ Docker image for Comfyui
 ## Mermaid
 
 ```mermaid
+---
+config:
+  look: handDrawn
+  theme: forest
+---
 architecture-beta
     group api(cloud)[API]
 
